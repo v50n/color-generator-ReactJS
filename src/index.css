@@ -5,9 +5,58 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F1F5F8;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.form-section{
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.form-section > form{
+  margin-left: 1rem;
+}
+
+button,input{
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-color: transparent;
+}
+
+form > button{
+  background-color: #49A7E9;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+form > button:hover{
+  cursor: pointer;
+}
+
+.color-generated{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.color-result{
+  flex-basis: 20%;
+  height: 150px;
+  background-color: #49A7E9;
+}
+
+.color-val{
+  padding-left: 20px;
+}
+
+.white{
+  color: white;
 }
